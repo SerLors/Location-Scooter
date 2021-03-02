@@ -1,8 +1,7 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class main {
+public class Main {
 
     static ArrayList<Scooter> parc = new ArrayList<Scooter>();
 
@@ -10,8 +9,6 @@ public class main {
 
         showMenu();
         userChoice();
-
-
 
         Scooter scooter = new Scooter("kawa",150,"neuf");
     }
