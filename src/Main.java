@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    static ArrayList<Scooter> parc = new ArrayList<Scooter>();
+    private final static ArrayList<Scooter> parc = new ArrayList<Scooter>();
 
     public static void main(String []arg){
 
